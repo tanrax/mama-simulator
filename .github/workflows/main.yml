@@ -18,5 +18,5 @@ jobs:
 
       - name: Run
         run: |
-          apt isntall python3
+          apt install python3
           python3 run.py
