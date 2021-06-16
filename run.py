@@ -5,8 +5,8 @@ from random import choice
 import os
 
 # Variables
-TELEGRAM_BOT_TOKEN = os.environ['secret.TELEGRAM_BOT_TOKEN']
-TELEGRAM_CHANNEL_ID = os.environ['secret.TELEGRAM_CHANNEL_ID']
+TELEGRAM_BOT_TOKEN = os.environ['TELEGRAM_BOT_TOKEN']
+TELEGRAM_CHANNEL_ID = os.environ['TELEGRAM_CHANNEL_ID']
 TELEGRAM_URL_SEND = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
 
 # Lee el fichero con las frases
